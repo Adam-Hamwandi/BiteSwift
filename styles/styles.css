@@ -46,15 +46,25 @@
 .margin-right-sm {
   margin-right: var(--spacing-5) !important;
 }
-.grid-3-cols {
+
+.grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--spacing-10);
+  gap: var(--spacing-13);
 }
 .grid-2-cols {
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: var(--spacing-10);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container {
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
 }
 
 .btn:link,
@@ -156,9 +166,20 @@
 /* ********************* */
 
 .hero-image {
-  max-width: 60%;
+  width: 60%;
   border-radius: 2rem;
-  margin: 0 auto;
+  transition: all 0.6s ease;
+  box-shadow: 0px 5px 24px 2px #1e1e1edb;
+}
+.hero-image:hover {
+  scale: 1.02;
+  transition: all 0.6s ease;
+  transform: skew(2deg, 0deg);
+}
+
+.hero-image-box {
+  display: flex;
+  justify-content: right;
 }
 
 .customers-rating {
@@ -189,9 +210,6 @@
 }
 
 .hero {
-  max-width: 150rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   flex-direction: column;
@@ -201,7 +219,7 @@
 
 .hero-section {
   background-color: var(--primary-tints);
-  padding: var(--spacing-9) 0 var(--spacing-13) 0;
+  padding: var(--spacing-13) 0 var(--spacing-13) 0;
 }
 .primary-heading {
   font-size: 6.2rem;
@@ -224,7 +242,7 @@
 /* ********************* */
 
 .how-it-works {
-  padding: 9.6rem 0;
+  padding: 9.6rem;
   background-color: var(--surface-background);
 }
 
