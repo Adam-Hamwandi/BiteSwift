@@ -62,4 +62,4 @@ We welcome contributions to enhance BiteSwift! Here's how you can contribute:
 6. Open a pull request to merge your changes.
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License 
