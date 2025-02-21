@@ -107,6 +107,9 @@
 }
 .nav-item {
   list-style: none;
+  font-size: 1.6rem;
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
 }
 .nav-logo__image {
   height: var(--spacing-8);
