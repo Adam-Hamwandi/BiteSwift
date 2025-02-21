@@ -40,38 +40,13 @@
   --font-weight-black: 900;
 }
 
-/* Hero Section */
-.hero {
-  max-width: 150rem;
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: repeat(2, 1fr);
-  flex-direction: column;
-  align-items: center;
-  gap: var(--spacing-13);
+/* ********************* */
+/* REUSABLE COMPONENTS */
+/* ********************* */
+.margin-right-sm {
+  margin-right: var(--spacing-5) !important;
 }
 
-.hero-section {
-  background-color: var(--primary-tints);
-  padding: var(--spacing-13) 0;
-}
-.primary-heading {
-  font-size: 6.2rem;
-  font-weight: var(--font-weight-bold);
-  line-height: 1.05;
-  color: var(--text-dark);
-  letter-spacing: -0.5px;
-  margin-bottom: var(--spacing-7);
-}
-.hero-desciption {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: var(--spacing-9);
-  color: var(--text-dark);
-  font-weight: var(--font-weight-medium);
-}
-
-/* Hero Buttons */
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -109,19 +84,43 @@
   color: var(--text-dark);
 }
 
-/* Hero Image */
+/* ********************* */
+/* HEADER SECTION */
+/* ********************* */
+.header {
+  background-color: var(--primary-tints);
+  height: 9.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--spacing-10);
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: var(--spacing-4);
+}
+.nav-item {
+  list-style: none;
+}
+.nav-logo__image {
+  height: var(--spacing-8);
+}
+
+/* ********************* */
+/* HERO SECTION */
+/* ********************* */
+
 .hero-image {
   max-width: 60%;
   border-radius: 2rem;
   margin: 0 auto;
 }
-
-/* Special helper class */
-.margin-right-sm {
-  margin-right: var(--spacing-5) !important;
-}
-
-/* Customer ratings */
 
 .customers-rating {
   display: flex;
@@ -150,16 +149,32 @@
   font-weight: var(--font-weight-bold);
 }
 
-/* Header & Navigation */
-.nav {
-  display: flex;
-  justify-content: space-between;
+.hero {
+  max-width: 150rem;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
   align-items: center;
+  gap: var(--spacing-13);
 }
-.nav-list {
-  display: flex;
-  gap: 1.6rem;
+
+.hero-section {
+  background-color: var(--primary-tints);
+  padding: var(--spacing-9) 0 var(--spacing-13) 0;
 }
-.nav-item {
-  list-style: none;
+.primary-heading {
+  font-size: 6.2rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.05;
+  color: var(--text-dark);
+  letter-spacing: -0.5px;
+  margin-bottom: var(--spacing-7);
+}
+.hero-desciption {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: var(--spacing-9);
+  color: var(--text-dark);
+  font-weight: var(--font-weight-medium);
 }
