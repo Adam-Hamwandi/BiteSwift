@@ -76,7 +76,8 @@
   align-items: center;
 }
 .nav-item a {
-  font-size: 2.4rem;
+  font-size: 4rem;
+  font-weight: 500;
 }
 .hamburger-menu {
   display: block;
