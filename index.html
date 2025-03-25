@@ -13,6 +13,8 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
     <!-- Script -->
     <script src="script/main.js" defer></script>
@@ -20,30 +22,33 @@
 
 <body>
     <!-- Header Section -->
-    <header class="header">
-        <a href="#" class="nav-logo__link">
-            <img src="assets/logo/logo.png" alt="BiteSwift Logo" class="nav-logo__image">
-        </a>
-        <nav class="main-nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#">How It Works</a></li>
-                <li class="nav-item"><a href="#">Why Us</a></li>
-                <li class="nav-item"><a href="#">AI Features</a></li>
-                <li class="nav-item"><a href="#">About Us</a></li>
-                <li class="nav-item"><a href="#">Pricing</a></li>
-            </ul>
-        </nav>
-        <div class="nav-buttons">
-            <a href="#" class="nav-btn">Get Started</a>
-        </div>
-    </header>
+    <div class="sticky-nav">
+        <header class="header">
+            <a href="#" class="nav-logo__link">
+                <img src="assets/logo/logo.png" alt="BiteSwift Logo" class="nav-logo__image">
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">How It Works</a></li>
+                    <li class="nav-item"><a href="#">Why Us</a></li>
+                    <li class="nav-item"><a href="#">AI Features</a></li>
+                    <li class="nav-item"><a href="#">About Us</a></li>
+                    <li class="nav-item"><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+            <div class="nav-buttons">
+                <a href="#" class="nav-btn">Get Started</a>
+            </div>
+        </header>
+    </div>
     <!-- Hero Section -->
     <main>
         <section class="hero-section">
-            <div class="hero container">
+            <div class="hero">
                 <div class="hero-text-box">
-                    <h1 class="primary-heading">Transform Your Health with BiteSwift</h1>
+                    <h1 class="primary-heading">Transform Your Health with BiteSwift
+                    </h1>
                     <p class="hero-desciption">
                         Discover a smarter way to eat. BiteSwift delivers fresh, healthy meals personalized just for
                         you—powered
@@ -62,18 +67,68 @@
                         </div>
                         <p class="success-info"><span>5 Stars from 10,000</span> Happy Customers</p>
                     </div>
-
                 </div>
                 <div class="hero-image-box">
                     <img src="assets/images/hero.jpg" class="hero-image" alt="Healthy food in a bowl" />
                 </div>
             </div>
+            <hr>
         </section>
-        <section id="how-it-works" class="how-it-works">
-            <div class="container">Test 1</div>
-            <div class="container">Test 2</div>
-            <div class="container">Test 3</div>
-            <div class="container">Test 4</div>
+        <section class="how-it-works">
+            <div class="container">
+                <span class="subheading">How BiteSwift Works</span>
+                <h2 class="secondary-heading">Wellness in 3 simple Steps</h2>
+                <p class="section-description">Get started in minutes and enjoy your first meal in no time.</p>
+            </div>
+            <div class="container grid grid-2-cols">
+                <!-- Step 1 -->
+                <div class="step-text-box">
+                    <p class="step-number">01</p>
+                    <h3 class="heading-tertiary">Choose Your Goal 🏆</h3>
+                    <p class="step-description">Start by selecting your health goal—whether it’s shedding pounds,
+                        building muscle, or achieving a balanced, nutritious lifestyle. Our platform helps you
+                        define
+                        and stay on track with what matters most to you.
+                    </p>
+                </div>
+                <div class="step-image-box">
+                    <img class="step-image" src="assets/images/how-it-works/choose-your-goal.jpeg"
+                        alt="A female choosing healthy food on a mobile screen">
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step-image-box">
+                    <img class="step-image" src="assets/images/how-it-works/ai-recommendation.jpeg"
+                        alt="A family looking at an ipad with healthy food recommendations">
+                </div>
+                <div class="step-text-box">
+                    <p class="step-number">02</p>
+                    <h3 class="heading-tertiary">Get AI Recommendations 🤖</h3>
+                    <p class="step-description">Our intelligent AI takes your preferences, dietary needs, and health
+                        goals
+                        into account to provide tailored meal suggestions. These personalized recommendations help
+                        ensure
+                        you get the right balance of taste and nutrition, supporting you at every stage of your health
+                        journey.
+                    </p>
+                </div>
+
+                <!-- step 3 -->
+                <div class="step-text-box">
+                    <p class="step-number">03</p>
+                    <h3 class="heading-tertiary">Enjoy and Thrive 🍽️</h3>
+                    <p class="step-description">Once you’ve made your choice, fresh, wholesome meals are delivered
+                        directly
+                        to your door. Say goodbye to meal prep stress and hello to nourishing meals that fuel your day,
+                        keep
+                        you on track with your goals, and make healthy eating effortless and delicious.
+                    </p>
+                </div>
+                <div class="step-image-box">
+                    <img class="step-image" src="assets/images/how-it-works/fresh-meals.jpeg"
+                        alt="A bowl of fresh, healthy food">
+                </div>
+            </div>
         </section>
     </main>
 </body>

@@ -35,9 +35,15 @@
 - Headline:
   "Wellness in 3 simple Steps"
 - Steps(with visuals):
-  - Choose Your Goal: Select your health focus—weight loss, muscle gain, or balanced living.
-  - Get AI Recommendations: Receive meal suggestions tailored just for you.
-  - Enjoy and Thrive: Fresh meals delivered straight to your door.
+
+  - Choose Your Goal:
+    Start by selecting your health goal—whether it’s shedding pounds, building muscle, or achieving a balanced, nutritious lifestyle. Our platform helps you define and stay on track with what matters most to you.
+    ***
+  - Get AI Recommendations:
+    Our intelligent AI takes your preferences, dietary needs, and health goals into account to provide tailored meal suggestions. These personalized recommendations help ensure you get the right balance of taste and nutrition, supporting you at every stage of your health journey.
+    ***
+  - Enjoy and Thrive:
+    Once you’ve made your choice, fresh, wholesome meals are delivered directly to your door. Say goodbye to meal prep stress and hello to nourishing meals that fuel your day, keep you on track with your goals, and make healthy eating effortless and delicious.
 
 ## Why us section
 

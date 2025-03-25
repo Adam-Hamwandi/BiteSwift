@@ -32,14 +32,6 @@ Tech Stack
 - Design: Figma (for UI/UX design, wireframing, and prototyping)
   \*Web Design: Responsive web design, optimized for desktop and mobile devices.
 
-How to Use
-
-1. Download the App: Available on the App Store and Google Play.
-2. Sign Up: Create an account with your personal preferences and dietary goals.
-3. Set Your Health Goal: Choose from weight loss, muscle gain, or balanced living.
-4. Get AI-Powered Meal Recommendations: Based on your preferences and goals, receive suggested meals.
-5. Enjoy Your Meals: Fresh, nutritious meals delivered to your door.
-
 Installation
 To view this project locally, simply follow these steps:
 
@@ -62,4 +54,4 @@ We welcome contributions to enhance BiteSwift! Here's how you can contribute:
 6. Open a pull request to merge your changes.
 
 License
-This project is licensed under the MIT License 
+This project is licensed under the MIT License
