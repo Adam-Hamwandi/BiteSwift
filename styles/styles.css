@@ -184,3 +184,16 @@ hr {
 .step-image-box:last-child {
   margin-bottom: 0;
 }
+
+/* Why Us */
+.why-us {
+  padding: 9.6rem 0;
+  background-color: var(--background-color);
+}
+.why-us-header {
+  margin-bottom: var(--spacing-9);
+}
+.why-us-icon {
+  margin-bottom: var(--spacing-5);
+  width: 5rem;
+}

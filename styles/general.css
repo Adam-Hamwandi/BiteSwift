@@ -145,3 +145,11 @@
   font-weight: var(--font-weight-regular);
   width: 55ch;
 }
+
+.why-us-description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--text-dark);
+  font-weight: var(--font-weight-regular);
+  width: 55ch;
+}
