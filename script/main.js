@@ -6,3 +6,12 @@ window.addEventListener("scroll", function () {
     header.classList.remove("sticky");
   }
 });
+
+// hamburger navbar
+const navElement = document.querySelector(".main-nav");
+const hamburgerButton = document.querySelector(".hamburger-menu");
+
+hamburgerButton.addEventListener("click", () => {
+  navElement.classList.toggle("nav--open");
+  hamburgerButton.classList.toggle("hamburger-menu--open");
+});
